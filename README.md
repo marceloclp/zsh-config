@@ -9,7 +9,7 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 Run the following script to download the configuration files:
 
 ```bash
-cd ~/ && gh repo clone marceloclp/config-zsh .zsh && source ~/.zsh/.zshrc
+cd ~/ && git clone https://github.com/marceloclp/zsh-config .zsh && source ~/.zsh/.zshrc
 ```
 
 ## Setup
