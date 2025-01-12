@@ -1,0 +1,12 @@
+# Antidote plugin cache directory:
+.antidote
+# Auto-generated Antidote plugin file:
+.zsh_plugins.zsh
+
+# Zsh cache directory:
+.cache
+
+# Auto-generated files:
+.zcompdump
+.zsh_history
+
