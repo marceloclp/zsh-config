@@ -7,6 +7,9 @@ ohmyzsh/ohmyzsh path:plugins/aliases
 lukechilds/zsh-nvm
 marceloclp/zsh-bun-install
 marceloclp/zsh-brew-install
+marceloclp/zsh-pnpm-install
 
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-syntax-highlighting
+
+g-plane/pnpm-shell-completion

@@ -68,3 +68,11 @@ export BUN_COMPLETION=true      # Enable Bun completion in shell
 if [[ "$SHELL" != "$(which zsh)" ]]; then
   chsh -s "$(which zsh)"
 fi
+
+# pnpm
+export PNPM_HOME="/home/marceloclp/.pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
